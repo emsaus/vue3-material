@@ -14,12 +14,12 @@ export default defineConfig(({ command, ssrBuild }) => ({
   },
   plugins: [
     vuePlugin(),
-    
+
   ],
- 
+
   build: {
     minify: true,
 		target: 'esnext'
   },
-  
+
 }))

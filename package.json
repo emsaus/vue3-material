@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:client && npm run build:server"
+    "build": "npm run build:client && npm run build:server",
+    "build:package": "vite build"
   },
   "dependencies": {
     "popper.js": "^1.15.0",

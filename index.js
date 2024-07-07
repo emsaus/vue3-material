@@ -1,14 +1,16 @@
+import { createApp } from 'vue'
 import material from './src/components/Material_lib'
 import * as MdComponents from './components'
 
-let VueMaterial = Vue => {
-  material(Vue)
+let VueMaterial = {
+  install(app){
+    material(app)
 
-  Object.values(MdComponents).forEach((MdComponent) => {
-    Vue.use(MdComponent)
-  })
+    Object.values(MdComponents).forEach((MdComponent) => {
+      app.use(MdComponent)
+    })
+  },
+  version: '__VERSION__'
 }
-
-VueMaterial.version = '__VERSION__'
 
 export default VueMaterial
