@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import material from './src/components'
+import material from './components/material.js'
 import * as MdComponents from './components'
 
 let VueMaterial = {
