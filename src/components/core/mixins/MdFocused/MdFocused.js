@@ -1,4 +1,4 @@
-//import MdReactive from '@/components/Material_lib/core/utils/MdReactive'
+//import MdReactive from '@/components/core/utils/MdReactive'
 
 let hasEvents = false
 let eventTarget = null

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import MdToolbar from '@/components/Material_lib/MdToolbar/MdToolbar.vue'
+  import MdToolbar from '@/components/MdToolbar/MdToolbar.vue'
 
   export default {
     name: 'MdTableToolbar',
@@ -17,7 +17,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   .md-table-toolbar {
     padding-left: 24px;

@@ -1,6 +1,6 @@
-import material from '@/components/Material_lib/material'
-import MdRipple from '@/components/Material_lib/MdRipple/MdRipple'
-import MdWave from '@/components/Material_lib/MdRipple/MdWave'
+import material from '@/components/material'
+import MdRipple from '@/components/MdRipple/MdRipple'
+import MdWave from '@/components/MdRipple/MdWave'
 
 export default Vue => {
   material(Vue)

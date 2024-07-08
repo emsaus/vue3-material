@@ -27,12 +27,12 @@
   import parse from 'date-fns/parse/index.js'
   import isValid from 'date-fns/isValid/index.js'
   import MdPropValidator from '../core/utils/MdPropValidator'
-  import MdOverlay from '@/components/Material_lib/MdOverlay/MdOverlay.vue'
+  import MdOverlay from '@/components/MdOverlay/MdOverlay.vue'
   import MdDatepickerDialog from './MdDatepickerDialog.vue'
   import MdDateIcon from '../core/icons/MdDateIcon.vue'
   import MdDebounce from '../core/utils/MdDebounce'
-  import MdField from '@/components/Material_lib/MdField/MdField.vue'
-  import MdInput from '@/components/Material_lib/MdField/MdInput/MdInput.vue'
+  import MdField from '@/components/MdField/MdField.vue'
+  import MdInput from '@/components/MdField/MdInput/MdInput.vue'
 
   export default {
 		emits: ['update:modelValue','md-opened','md-closed','md-clear'],
@@ -269,8 +269,8 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
-  @import "@/components/Material_lib/MdLayout/mixins";
+  @import "@/components/MdAnimation/variables";
+  @import "@/components/MdLayout/mixins";
 
   .md-datepicker-overlay {
     opacity: 0;

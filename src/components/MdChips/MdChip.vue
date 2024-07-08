@@ -21,7 +21,7 @@
   import MdFocused from '../core/mixins/MdFocused/MdFocused'
   import MdRipple from '../core/mixins/MdRipple/MdRipple'
   import MdClearIcon from '../core/icons/MdClearIcon.vue'
-  import MdButton from '@/components/Material_lib/MdButton/MdButton.vue'
+  import MdButton from '@/components/MdButton/MdButton.vue'
 
   export default new MdComponent({
     name: 'MdChip',
@@ -58,8 +58,8 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
-  @import "@/components/Material_lib/MdElevation/mixins";
+  @import "@/components/MdAnimation/variables";
+  @import "@/components/MdElevation/mixins";
 
   $md-chips-height: 32px;
 

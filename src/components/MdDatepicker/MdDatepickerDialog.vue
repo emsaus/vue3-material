@@ -103,13 +103,13 @@
   import setYear from 'date-fns/setYear/index.js'
 
   import MdComponent from '../core/MdComponent'
-  import MdPopover from '@/components/Material_lib/MdPopover/MdPopover.vue'
+  import MdPopover from '@/components/MdPopover/MdPopover.vue'
   import MdArrowRightIcon from '../core/icons/MdArrowRightIcon.vue'
   import MdArrowLeftIcon from '../core/icons/MdArrowLeftIcon.vue'
-	import MdButton from "@/components/Material_lib/MdButton/MdButton.vue"
-  import MdDialog from '@/components/Material_lib/MdDialog/MdDialog.vue'
-	import MdDialogActions from '@/components/Material_lib/MdDialog/MdDialogActions.vue'
-	import MdContent from '@/components/Material_lib/MdContent/MdContent.vue'
+	import MdButton from "@/components/MdButton/MdButton.vue"
+  import MdDialog from '@/components/MdDialog/MdDialog.vue'
+	import MdDialogActions from '@/components/MdDialog/MdDialogActions.vue'
+	import MdContent from '@/components/MdContent/MdContent.vue'
 
 	
 
@@ -372,9 +372,9 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
-  @import "@/components/Material_lib/MdLayout/mixins";
-  @import "@/components/Material_lib/MdElevation/mixins";
+  @import "@/components/MdAnimation/variables";
+  @import "@/components/MdLayout/mixins";
+  @import "@/components/MdElevation/mixins";
 
   $md-calendar-width: 320px;
   $md-calendar-mobile-width: 296px;

@@ -1,7 +1,7 @@
-import material from '@/components/Material_lib/material'
+import material from '@/components/material'
 import MdSpeedDial from './MdSpeedDial'
-import MdSpeedDialTarget from './MdSpeedDialTarget'
 import MdSpeedDialContent from './MdSpeedDialContent'
+import MdSpeedDialTarget from './MdSpeedDialTarget'
 
 export default Vue => {
   material(Vue)

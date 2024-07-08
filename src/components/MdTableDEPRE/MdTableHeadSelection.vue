@@ -7,8 +7,8 @@
 </template>
 
 <script>
-  import MdTableHead from '@/components/Material_lib/MdTable/MdTableHead.vue'
-	import MdCheckbox from "@/components/Material_lib/MdCheckbox/MdCheckbox.vue"
+  import MdTableHead from '@/components/MdTable/MdTableHead.vue'
+	import MdCheckbox from "@/components/MdCheckbox/MdCheckbox.vue"
 
   export default {
     name: 'MdTableHeadSelection',

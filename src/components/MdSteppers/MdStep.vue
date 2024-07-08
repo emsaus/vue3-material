@@ -11,7 +11,7 @@
 <script>
   import MdUuid from '../core/utils/MdUuid'
   import MdRouterLink from '../core/mixins/MdRouterLink/MdRouterLink'
-  import MdStepHeader from '@/components/Material_lib/MdSteppers/MdStepHeader.vue'
+  import MdStepHeader from '@/components/MdSteppers/MdStepHeader.vue'
 
   export default {
     name: 'MdStep',
@@ -136,7 +136,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   .md-steppers.md-vertical .md-stepper-content {
     padding: 0 24px 0 60px;

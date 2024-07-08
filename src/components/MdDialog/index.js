@@ -1,8 +1,8 @@
-import material from '@/components/Material_lib/material'
+import material from '@/components/material'
 import MdDialog from './MdDialog'
-import MdDialogTitle from './MdDialogTitle'
-import MdDialogContent from './MdDialogContent'
 import MdDialogActions from './MdDialogActions'
+import MdDialogContent from './MdDialogContent'
+import MdDialogTitle from './MdDialogTitle'
 
 export default Vue => {
   material(Vue)

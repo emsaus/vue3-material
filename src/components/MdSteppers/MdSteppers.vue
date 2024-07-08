@@ -16,7 +16,7 @@
   import MdComponent from '../core/MdComponent'
   import MdObserveElement from '../core/utils/MdObserveElement'
   import MdThrottling from '../core/utils/MdThrottling'
-  import MdStepHeader from '@/components/Material_lib/MdSteppers/MdStepHeader.vue'
+  import MdStepHeader from '@/components/MdSteppers/MdStepHeader.vue'
 
   export default new MdComponent({
     name: 'MdSteppers',
@@ -239,9 +239,9 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
-  @import "@/components/Material_lib/MdElevation/mixins";
-  @import "@/components/Material_lib/MdLayout/mixins";
+  @import "@/components/MdAnimation/variables";
+  @import "@/components/MdElevation/mixins";
+  @import "@/components/MdLayout/mixins";
 
   $md-stepper-icon-size: 24px;
 

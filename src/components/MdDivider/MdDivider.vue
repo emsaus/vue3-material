@@ -17,7 +17,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   .md-divider {
     height: 1px;

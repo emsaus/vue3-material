@@ -67,11 +67,11 @@
   import localConfig  from '@localconfig/config.json';
 
   import MdDropDownIcon from '../../core/icons/MdDropDownIcon.vue'
-  import MdMenu from '@/components/Material_lib/MdMenu/MdMenu.vue'
-  import MdMenuContent from '@/components/Material_lib/MdMenu/MdMenuContent.vue'
+  import MdMenu from '@/components/MdMenu/MdMenu.vue'
+  import MdMenuContent from '@/components/MdMenu/MdMenuContent.vue'
   import MdInput from '../MdInput/MdInput.vue'
   import MdFieldMixin from '../MdFieldMixin'
-	import MdOption from "@/components/Material_lib/MdField/MdSelect/MdOption.vue"
+	import MdOption from "@/components/MdField/MdSelect/MdOption.vue"
 
 
   const defaultOffset = {
@@ -454,7 +454,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   .md-menu.md-select {
     display: flex;

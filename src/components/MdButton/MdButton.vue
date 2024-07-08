@@ -121,9 +121,9 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
-  @import "@/components/Material_lib/MdElevation/mixins";
-  @import "@/components/Material_lib/MdElevation/variables";
+  @import "@/components/MdAnimation/variables";
+  @import "@/components/MdElevation/mixins";
+  @import "@/components/MdElevation/variables";
 
   $md-button-min-width: 88px;
   $md-button-height: 36px;

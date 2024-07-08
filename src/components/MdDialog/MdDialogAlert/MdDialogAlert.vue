@@ -10,11 +10,11 @@
 </template>
 
 <script>
-	import MdButton from "@/components/Material_lib/MdButton/MdButton.vue"
-	import MdDialog from "@/components/Material_lib/MdDialog/MdDialog.vue"
-	import MdDialogContent from "@/components/Material_lib/MdDialog/MdDialogContent.vue"
-	import MdDialogActions from "@/components/Material_lib/MdDialog/MdDialogActions.vue"
-	import MdDialogTitle from "@/components/Material_lib/MdDialog/MdDialogTitle.vue"
+	import MdButton from "@/components/MdButton/MdButton.vue"
+	import MdDialog from "@/components/MdDialog/MdDialog.vue"
+	import MdDialogContent from "@/components/MdDialog/MdDialogContent.vue"
+	import MdDialogActions from "@/components/MdDialog/MdDialogActions.vue"
+	import MdDialogTitle from "@/components/MdDialog/MdDialogTitle.vue"
 
   export default {
 		emits:['update:mdActive'],

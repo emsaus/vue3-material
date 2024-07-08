@@ -5,8 +5,8 @@
 </template>
 
 <script>
-  import MdEmptyState from '@/components/Material_lib/MdEmptyState/MdEmptyState.vue'
-  import MdEmptyStateProps from '@/components/Material_lib/MdEmptyState/MdEmptyStateProps'
+  import MdEmptyState from '@/components/MdEmptyState/MdEmptyState.vue'
+  import MdEmptyStateProps from '@/components/MdEmptyState/MdEmptyStateProps'
 
   export default {
     name: 'MdTableEmptyState',
@@ -17,7 +17,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   .md-table-empty-state {
     padding-left: 24px;

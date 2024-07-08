@@ -19,9 +19,9 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
-  @import "@/components/Material_lib/MdLayout/mixins";
-  @import "@/components/Material_lib/MdElevation/mixins";
+  @import "@/components/MdAnimation/variables";
+  @import "@/components/MdLayout/mixins";
+  @import "@/components/MdElevation/mixins";
 
   $md-toolbar-height: 64px;
   $md-toolbar-height-portrait: 56px;

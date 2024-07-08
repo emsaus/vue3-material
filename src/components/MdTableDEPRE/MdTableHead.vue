@@ -21,8 +21,8 @@
 <script>
   import MdUpwardIcon from '../core/icons/MdUpwardIcon.vue'
   import MdResizeObserver from '../core/utils/MdResizeObserver'
-	import MdRipple from '@/components/Material_lib/MdRipple/MdRipple.vue'
-	import MdTooltip from "@/components/Material_lib/MdTooltip/MdTooltip.vue"
+	import MdRipple from '@/components/MdRipple/MdRipple.vue'
+	import MdTooltip from "@/components/MdTooltip/MdTooltip.vue"
 
   export default {
     name: 'MdTableHead',
@@ -127,7 +127,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   .md-table-head {
     padding: 0;

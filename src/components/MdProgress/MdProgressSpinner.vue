@@ -124,7 +124,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   @keyframes md-progress-spinner-rotate {
     0% {

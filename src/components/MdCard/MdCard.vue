@@ -34,8 +34,8 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
-  @import "@/components/Material_lib/MdElevation/mixins";
+  @import "@/components/MdAnimation/variables";
+  @import "@/components/MdElevation/mixins";
   @import "./base";
 
   $md-card-radius: 2px;

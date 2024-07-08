@@ -29,9 +29,9 @@
 
 <script>
 	import MdComponent from "../core/MdComponent";
-	import MdPortal from "@/components/Material_lib/MdPortal/MdPortal";
-	import MdOverlay from "@/components/Material_lib/MdOverlay/MdOverlay.vue";
-	import MdFocusTrap from "@/components/Material_lib/MdFocusTrap/MdFocusTrap";
+	import MdPortal from "@/components/MdPortal/MdPortal";
+	import MdOverlay from "@/components/MdOverlay/MdOverlay.vue";
+	import MdFocusTrap from "@/components/MdFocusTrap/MdFocusTrap";
 
 	export default new MdComponent({
 		emits:["update:mdActive","md-clicked-outside","md-closed","md-opened"],
@@ -132,9 +132,9 @@
 </script>
 
 <style lang="scss">
-	@import "@/components/Material_lib/MdAnimation/variables";
-	@import "@/components/Material_lib/MdLayout/mixins";
-	@import "@/components/Material_lib/MdElevation/mixins";
+	@import "@/components/MdAnimation/variables";
+	@import "@/components/MdLayout/mixins";
+	@import "@/components/MdElevation/mixins";
 
 	$opacity-transition-duration: 0.15s;
 	$transform-transition-duration: 0.2s;

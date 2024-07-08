@@ -4,7 +4,7 @@
 	import Popper from 'popper.js'
   import deepmerge from 'deepmerge'
 
-  import MdPortal from '@/components/Material_lib/MdPortal/MdPortal'
+  import MdPortal from '@/components/MdPortal/MdPortal'
 
   export default {
     name: 'MdPopover',

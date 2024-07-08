@@ -7,7 +7,7 @@
 
 <script>
   import MdComponent from '../core/MdComponent'
-  import MdSvgLoader from '@/components/Material_lib/MdSvgLoader/MdSvgLoader.vue'
+  import MdSvgLoader from '@/components/MdSvgLoader/MdSvgLoader.vue'
 
   export default new MdComponent({
     name: 'MdIcon',
@@ -22,7 +22,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
   @import "./mixins";
 
   $icon-size: 24px;

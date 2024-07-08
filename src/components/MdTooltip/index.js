@@ -1,4 +1,4 @@
-import material from '@/components/Material_lib/material'
+import material from '@/components/material'
 import MdTooltip from './MdTooltip'
 
 export default Vue => {

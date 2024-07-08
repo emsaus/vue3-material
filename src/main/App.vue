@@ -8,7 +8,7 @@
 
 		<md-datepicker  :md-immediately="true" >
       <label>Datepicker</label>	
-    </md-datepicker>	
+    </md-datepicker>
 
 		<md-checkbox >
 			<md-tooltip md-delay="300" md-direction="bottom" >this is a tooltip</md-tooltip>
@@ -16,19 +16,19 @@
 		</md-checkbox>
 		
   </div>
-  
+
 </template>
 
 <script>
-	import '@/components/Material_lib/css/vue-material.min.css';
-	import '@/components/Material_lib/css/default.css';
+	import '@/components/css/vue-material.min.css';
+	import '@/components/css/default.css';
 	import '@/main/css/main.css';
-	
-	import MdButton from "@/components/Material_lib/MdButton/MdButton.vue"
-	import MdDatepicker from "@/components/Material_lib/MdDatepicker/MdDatepicker.vue"
-	import MdTooltip from "@/components/Material_lib/MdTooltip/MdTooltip.vue"
 
-	import MdCheckbox from "@/components/Material_lib/MdCheckbox/MdCheckbox.vue"
+	import MdButton from "@/components/MdButton/MdButton.vue"
+	import MdDatepicker from "@/components/MdDatepicker/MdDatepicker.vue"
+	import MdTooltip from "@/components/MdTooltip/MdTooltip.vue"
+
+	import MdCheckbox from "@/components/MdCheckbox/MdCheckbox.vue"
 
 	export default {
 		

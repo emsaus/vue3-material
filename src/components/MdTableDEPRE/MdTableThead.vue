@@ -8,8 +8,8 @@
 </template>
 
 <script>
-  import MdTableHead from '@/components/Material_lib/MdTable/MdTableHead.vue'
-  import MdTableHeadSelection from '@/components/Material_lib/MdTable/MdTableHeadSelection.vue'
+  import MdTableHead from '@/components/MdTable/MdTableHead.vue'
+  import MdTableHeadSelection from '@/components/MdTable/MdTableHeadSelection.vue'
 
   export default {
     name: 'MdTableThead',

@@ -1,4 +1,4 @@
-import MdRipple from '@/components/Material_lib/MdRipple/MdRipple.vue'
+import MdRipple from '@/components/MdRipple/MdRipple.vue';
 
 
 export default {

@@ -45,12 +45,12 @@
   import fuzzy from 'fuzzysearch'
   import isPromise from 'is-promise'
   import MdPropValidator from '../core/utils/MdPropValidator'
-	import MdField from "@/components/Material_lib/MdField/MdField.vue"
-	import MdInput from "@/components/Material_lib/MdField/MdInput/MdInput.vue"
-	import MdProgressSpinner from "@/components/Material_lib/MdProgress/MdProgressSpinner.vue"
-	import MdMenuItem from "@/components/Material_lib/MdMenu/MdMenuItem.vue"
-	import MdMenuContent from "@/components/Material_lib/MdMenu/MdMenuContent.vue"
-	import MdMenu from "@/components/Material_lib/MdMenu/MdMenu.vue"
+	import MdField from "@/components/MdField/MdField.vue"
+	import MdInput from "@/components/MdField/MdInput/MdInput.vue"
+	import MdProgressSpinner from "@/components/MdProgress/MdProgressSpinner.vue"
+	import MdMenuItem from "@/components/MdMenu/MdMenuItem.vue"
+	import MdMenuContent from "@/components/MdMenu/MdMenuContent.vue"
+	import MdMenu from "@/components/MdMenu/MdMenu.vue"
 
   export default {
 		components: {
@@ -335,9 +335,9 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
-  @import "@/components/Material_lib/MdElevation/mixins";
-  @import "@/components/Material_lib/MdLayout/mixins";
+  @import "@/components/MdAnimation/variables";
+  @import "@/components/MdElevation/mixins";
+  @import "@/components/MdLayout/mixins";
 
   .md-autocomplete {
     .md-menu {

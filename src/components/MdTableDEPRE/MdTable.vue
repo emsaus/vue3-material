@@ -56,13 +56,13 @@
 
   import MdUuid from '../core/utils/MdUuid'
   import MdPropValidator from '../core/utils/MdPropValidator'
-  import MdTableThead from '@/components/Material_lib/MdTable/MdTableThead.vue'
-  import MdTableAlternateHeader from '@/components/Material_lib/MdTable/MdTableAlternateHeader.vue'
-  import MdTableRow from '@/components/Material_lib/MdTable/MdTableRow.vue'
-  import MdTableRowGhost from '@/components/Material_lib/MdTable/MdTableRowGhost.vue'
-  import MdTableCellSelection from '@/components/Material_lib/MdTable/MdTableCellSelection.vue'
+  import MdTableThead from '@/components/MdTable/MdTableThead.vue'
+  import MdTableAlternateHeader from '@/components/MdTable/MdTableAlternateHeader.vue'
+  import MdTableRow from '@/components/MdTable/MdTableRow.vue'
+  import MdTableRowGhost from '@/components/MdTable/MdTableRowGhost.vue'
+  import MdTableCellSelection from '@/components/MdTable/MdTableCellSelection.vue'
   import MdResizeObserver from '../core/utils/MdResizeObserver'
-	import MdContent from '@/components/Material_lib/MdContent/MdContent.vue'
+	import MdContent from '@/components/MdContent/MdContent.vue'
 
   const getObjectAttribute = (object, key) => {
     let value = object
@@ -390,7 +390,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   .md-table {
     display: flex;

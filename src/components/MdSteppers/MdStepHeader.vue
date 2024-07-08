@@ -20,7 +20,7 @@
   import MdWarningIcon from '../core/icons/MdWarningIcon.vue'
   import MdCheckIcon from '../core/icons/MdCheckIcon.vue'
   import MdEditIcon from '../core/icons/MdEditIcon.vue'
-	import MdButton from "@/components/Material_lib/MdButton/MdButton.vue"
+	import MdButton from "@/components/MdButton/MdButton.vue"
 
   export default {
     name: 'MdStepperHeader',

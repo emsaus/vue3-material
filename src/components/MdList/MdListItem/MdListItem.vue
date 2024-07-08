@@ -8,7 +8,7 @@
   //import MdListItemLink from './MdListItemLink.vue'
   //import MdListItemRouter from './MdListItemRouter.vue'
   //import MdListItemExpand from './MdListItemExpand.vue'
-  import MdButton from '@/components/Material_lib/MdButton/MdButton.vue'
+  import MdButton from '@/components/MdButton/MdButton.vue'
 
   function hasExpansion (props) {
     return props.hasOwnProperty('mdExpand') && props.mdExpand !== false
@@ -68,7 +68,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   .md-list-item {
     height: auto;

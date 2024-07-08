@@ -22,7 +22,7 @@
 <script>
   import MdComponent from '../core/MdComponent'
   import MdClearIcon from '../core/icons/MdClearIcon.vue'
-	import MdButton from "@/components/Material_lib/MdButton/MdButton.vue"
+	import MdButton from "@/components/MdButton/MdButton.vue"
   import MdPasswordOffIcon from '../core/icons/MdPasswordOffIcon.vue'
   import MdPasswordOnIcon from '../core/icons/MdPasswordOnIcon.vue'
 
@@ -130,7 +130,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   $md-input-height: 32px;
 

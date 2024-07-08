@@ -11,8 +11,8 @@
 <script>
 	
   import MdUuid from '../../core/utils/MdUuid'
-	import MdCheckbox from "@/components/Material_lib/MdCheckbox/MdCheckbox.vue"
-	import MdMenuItem from "@/components/Material_lib/MdMenu/MdMenuItem.vue"
+	import MdCheckbox from "@/components/MdCheckbox/MdCheckbox.vue"
+	import MdMenuItem from "@/components/MdMenu/MdMenuItem.vue"
 
   export default {
 		

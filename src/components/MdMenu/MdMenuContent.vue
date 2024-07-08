@@ -21,9 +21,9 @@
   import MdComponent from '../core/MdComponent'
   import MdObserveEvent from '../core/utils/MdObserveEvent'
   import MdResizeObserver from '../core/utils/MdResizeObserver'
-  import MdPopover from '@/components/Material_lib/MdPopover/MdPopover.vue'
-  import MdFocusTrap from '@/components/Material_lib/MdFocusTrap/MdFocusTrap'
-  import MdList from '@/components/Material_lib/MdList/MdList.vue'
+  import MdPopover from '@/components/MdPopover/MdPopover.vue'
+  import MdFocusTrap from '@/components/MdFocusTrap/MdFocusTrap'
+  import MdList from '@/components/MdList/MdList.vue'
   import MdContains from '../core/utils/MdContains'
 
 	
@@ -415,9 +415,9 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
-  @import "@/components/Material_lib/MdElevation/mixins";
-  @import "@/components/Material_lib/MdLayout/mixins";
+  @import "@/components/MdAnimation/variables";
+  @import "@/components/MdElevation/mixins";
+  @import "@/components/MdLayout/mixins";
 
   $md-menu-base-width: 56px;
 

@@ -8,7 +8,7 @@
 </template>
 
 <script>
-  import MdIcon from '@/components/Material_lib/MdIcon/MdIcon.vue'
+  import MdIcon from '@/components/MdIcon/MdIcon.vue'
 
   export default {
     name: 'MdDateIcon',

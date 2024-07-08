@@ -8,7 +8,7 @@
 
 <script>
 
-	import MdCheckbox from "@/components/Material_lib/MdCheckbox/MdCheckbox.vue"
+	import MdCheckbox from "@/components/MdCheckbox/MdCheckbox.vue"
 
   export default {
 		emits:['input'],

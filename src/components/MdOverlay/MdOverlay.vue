@@ -7,7 +7,7 @@
 </template>
 
 <script>
-	import MdPortal from "@/components/Material_lib/MdPortal/MdPortal";
+	import MdPortal from "@/components/MdPortal/MdPortal";
 
 	export default {
 		name: "MdOverlay",
@@ -83,7 +83,7 @@
 	}
 </style>
 <style lang="scss">
-	@import "@/components/Material_lib/MdAnimation/variables";
+	@import "@/components/MdAnimation/variables";
 
 	.md-overlay {
 		position: absolute;

@@ -6,7 +6,7 @@
 
 <script>
   import MdPropValidator from '../core/utils/MdPropValidator'
-  import MdTableCellSelection from '@/components/Material_lib/MdTable/MdTableCellSelection.vue'
+  import MdTableCellSelection from '@/components/MdTable/MdTableCellSelection.vue'
 
   export default {
     name: 'MdTableRow',
@@ -138,7 +138,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   .md-table-row {
     transition: .3s $md-transition-default-timing;

@@ -14,7 +14,7 @@
 
 <script>
   import MdComponent from '../core/MdComponent'
-  import MdCheckboxMixin from '@/components/Material_lib/MdCheckbox/MdCheckboxMixin'
+  import MdCheckboxMixin from '@/components/MdCheckbox/MdCheckboxMixin'
   import MdUuid from '../core/utils/MdUuid'
 
   export default new MdComponent({
@@ -30,7 +30,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/components/Material_lib/MdAnimation/variables";
+  @import "@/components/MdAnimation/variables";
 
   $md-checkbox-size: 20px;
   $md-checkbox-touch-size: 48px;

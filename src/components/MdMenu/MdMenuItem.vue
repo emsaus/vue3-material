@@ -7,7 +7,7 @@
 <script>
   import MdComponent from '../core/MdComponent'
   
-	import MdListItem from '@/components/Material_lib/MdList/MdListItem/MdListItem.vue'
+	import MdListItem from '@/components/MdList/MdListItem/MdListItem.vue'
 
   export default new MdComponent({
 		components: {

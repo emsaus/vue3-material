@@ -1,4 +1,4 @@
-import material from '@/components/Material_lib/material'
+import material from '@/components/material'
 import MdMenu from './MdMenu'
 import MdMenuContent from './MdMenuContent'
 import MdMenuItem from './MdMenuItem'
