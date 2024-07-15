@@ -1,6 +1,5 @@
-import { createApp } from 'vue'
-import material from './components/material.js'
-import * as MdComponents from './components'
+import material from './src/components/material'
+import * as MdComponents from './src/components'
 
 let VueMaterial = {
   install(app){

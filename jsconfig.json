@@ -6,6 +6,6 @@
 			
 		}
 	},
-	"include": ["src/**/*"],
+	"include": ["src/**/*", "index.js"],
 	"exclude": ["node_modules"]
 }
